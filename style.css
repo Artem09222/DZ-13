@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.menu-item:last-child {
+    margin: 0;
+}
+
+.button2 {
+    background-color: black;
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+    font-size: 27px;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.button1 {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 35px;
+    padding: 10px;
+}
+
+.button2:hover {
+    background-color: rgb(240, 249, 255);
+    color: black;
+}
+
+.button1:hover {
+    background-color: green;
+    color: antiquewhite;
+}
+
+.menu-item:hover {
+    background-color: darkgray;
+    color: aqua;
+}
